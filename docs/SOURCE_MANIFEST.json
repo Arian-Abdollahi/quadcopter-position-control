@@ -1,0 +1,148 @@
+{
+  "project": "Quadcopter Position Control",
+  "phases": [
+    {
+      "phase": 1,
+      "folder": "phases/01_modeling_and_analysis",
+      "original_files": [
+        {
+          "source_name": "Phase1.mlx",
+          "path": "phases/01_modeling_and_analysis/Phase1.mlx",
+          "bytes": 94964,
+          "sha256": "1d017d6a846d179fcc08524847597ac48f9a6d2e75ffd2744745732e1711a41a"
+        },
+        {
+          "source_name": "Phase1_simulink.slx",
+          "path": "phases/01_modeling_and_analysis/Phase1_simulink.slx",
+          "bytes": 73146,
+          "sha256": "721f269c0805893cfab529b89af2ee29e95d95a79eb87a949ecce73080fe4c2c"
+        }
+      ],
+      "export_code_blocks": 10,
+      "report": {
+        "source_name": "Report_Phase1.pdf",
+        "path": "reports/01_modeling_and_analysis.pdf",
+        "source_sha256": "40a39ca0d3e7b7fc6b73439361dc7a931e6cee2b4db38df1371dd09ccb0cd914",
+        "omitted_source_pages_one_based": [
+          1
+        ],
+        "text_presentation_edits": [
+          {
+            "source_page_one_based": 8,
+            "framing_words_removed": 1
+          },
+          {
+            "source_page_one_based": 45,
+            "framing_words_removed": 3
+          }
+        ]
+      }
+    },
+    {
+      "phase": 2,
+      "folder": "phases/02_position_tracking",
+      "original_files": [
+        {
+          "source_name": "Main.mlx",
+          "path": "phases/02_position_tracking/Main.mlx",
+          "bytes": 100538,
+          "sha256": "8d1b0307e8b398e4aa98253fef83e7e7b3d4ae7280b665f681ce6de410ba11e4"
+        },
+        {
+          "source_name": "Main.slx",
+          "path": "phases/02_position_tracking/Main.slx",
+          "bytes": 115511,
+          "sha256": "302244c8140cd9f5841d5bfca7c630d8a5fd24c30d493b5b278ca661cb62ccef"
+        }
+      ],
+      "export_code_blocks": 17,
+      "report": {
+        "source_name": "MC_Project_Phase2.pdf",
+        "path": "reports/02_position_tracking.pdf",
+        "source_sha256": "d27f2856bda4eac6dcca90023a7388517e4d0b447389eacba6f751319176ad17",
+        "omitted_source_pages_one_based": [
+          1
+        ],
+        "text_presentation_edits": [
+          {
+            "source_page_one_based": 5,
+            "framing_words_removed": 1
+          },
+          {
+            "source_page_one_based": 11,
+            "framing_words_removed": 1
+          },
+          {
+            "source_page_one_based": 26,
+            "framing_words_removed": 1
+          }
+        ]
+      }
+    },
+    {
+      "phase": 3,
+      "folder": "phases/03_observers_and_robustness",
+      "original_files": [
+        {
+          "source_name": "Main.mlx",
+          "path": "phases/03_observers_and_robustness/Main.mlx",
+          "bytes": 75110,
+          "sha256": "2bc169da22007c6e7ac9aec9d907df0dcccdf14bf3d86f3310d4e5a5bec90254"
+        },
+        {
+          "source_name": "Main.slx",
+          "path": "phases/03_observers_and_robustness/Main.slx",
+          "bytes": 160079,
+          "sha256": "68ca20d0b7f4e9228be9f45cfa02bb7bb04d32a978eebd5646d21c47ee134e5c"
+        }
+      ],
+      "export_code_blocks": 18,
+      "report": {
+        "source_name": "MC_Project .pdf",
+        "path": "reports/03_observers_and_robustness.pdf",
+        "source_sha256": "705dfcb3e5c87c899b844f317be2d75c0f438e7c402c987da3ffbf173aaf41e5",
+        "omitted_source_pages_one_based": [
+          1
+        ],
+        "text_presentation_edits": [
+          {
+            "source_page_one_based": 2,
+            "framing_words_removed": 1
+          },
+          {
+            "source_page_one_based": 8,
+            "framing_words_removed": 2
+          },
+          {
+            "source_page_one_based": 65,
+            "framing_words_removed": 2
+          }
+        ]
+      }
+    }
+  ],
+  "reviewed_briefs": [
+    {
+      "source_name": "MC_Project1.pdf",
+      "sha256": "a53ee80d623295f52e527a454c1d63780bd32ee16cb07dc8b3c2675d9bec673b",
+      "included_in_repository": false
+    },
+    {
+      "source_name": "MC_Project2.pdf",
+      "sha256": "739f56d76252f830f3560d64f0e4f786945d38d71ddc24d66a884da3f0b051f6",
+      "included_in_repository": false
+    },
+    {
+      "source_name": "MC_project3.pdf",
+      "sha256": "f05fc354249725c20254fe983fa393574bdc47476327467670e7e883989e4d98",
+      "included_in_repository": false
+    }
+  ],
+  "packaging": {
+    "matlab_and_simulink": "Supplied MLX and SLX files preserved byte-for-byte in separate phase folders.",
+    "code_exports": "Code paragraphs preserved, rich-text headings converted to MATLAB comments; no analytical redesign.",
+    "reports": "First cover page omitted; brief framing terms removed from report prose. Technical equations and figures retained.",
+    "briefs": "Supplied project briefs were reviewed for context and are not redistributed.",
+    "presentation": "Supplied presentation pointer retained separately; external presentation content not inspected."
+  }
+}

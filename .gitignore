@@ -1,0 +1,15 @@
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.slx.autosave
+*_grt_rtw/
+*_ert_rtw/
+codegen/
+*.mex*
+*.mat
+results/
+outputs/
+*.log
+*.fig
+.DS_Store
